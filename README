@@ -1,0 +1,16 @@
+The app simply brings up a webpage, layout written in-line, which tells you what week of the quarter it is at either University of Chicago or Northwestern
+
+It works thusly, 
+
+First start of the quarter date is yanked from the UCHICAGO academic calander page and since UCHICAGO and NORTHWESTERN are on the same schedule for the rest of 2011 that will suffice for now
+
+Then the computation takes place using the 'date' gem in ruby, using Sunday (start_date -1 ) as the actual start date of the quarter so that Sunday always starts the week
+
+Then it gets displyed, blah
+
+Required gems:
+-Sinatra
+-Nokogiri
+-open-uri
+
+Paul
